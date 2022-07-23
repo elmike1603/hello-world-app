@@ -1,5 +1,5 @@
 ---
-- hosts: tomcat-server
+- hosts: webserver
   become: yes
   vars:
     - war_name: java-hello-world.war
